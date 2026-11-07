@@ -298,8 +298,8 @@ internal static class WindowsPatchDefinitions
         //  directly to the planted site instead of random searching.
         ["TBot_BombsiteSearch_UseKnownPlantedSite"] = (
             signature: "48 8B 8E ? ? 00 00 E8 ? ? ? ? 48 8B CB E8 ? ? ? ? 4C 8B 05 ? ? ? ? 85 C0",
-            patch: "E8 20 57 F9 FF",
-            expectedOriginal: "E8 30 51 F9 FF",
+            patch: "E8 10 57 F9 FF",
+            expectedOriginal: "E8 20 51 F9 FF",
             patchOffset: 15
         ),
 
