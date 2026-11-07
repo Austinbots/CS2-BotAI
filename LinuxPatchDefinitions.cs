@@ -280,8 +280,8 @@ internal static class LinuxPatchDefinitions
         // Build-specific rel32: keep expectedOriginal exact and recheck both callees.
         ["TBot_BombsiteSearch_UseKnownPlantedSite"] = (
             signature:        "48 8B BB 00 5E 00 00 E8 ? ? ? ? 4C 89 F7 E8 ? ? ? ?",
-            patch:            "E8 3C B1 F6 FF",   // call GetPlantedBombsite
-            expectedOriginal: "E8 2C B4 F6 FF",   // call GetNextBombsiteToSearch
+            patch:            "E8 FC B1 F6 FF",   // call GetPlantedBombsite
+            expectedOriginal: "E8 EC B4 F6 FF",   // call GetNextBombsiteToSearch
             patchOffset:      15
         ),
 
