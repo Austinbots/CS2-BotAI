@@ -12,7 +12,7 @@ Enhances bots' awareness of their surroundings.<br>
 Improved bomb-related logic.<br>
 <br>
 Built and testing with<br>
-cs# 1.0.378<br>
+cs# 1.0.380<br>
 # Installation
 1. Download the latest BotAI.zip from [Releases](https://github.com/ed0ard/CS2-BotAI/releases)
 
