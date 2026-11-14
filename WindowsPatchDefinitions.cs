@@ -57,6 +57,8 @@ internal static class WindowsPatchDefinitions
         patchOffset: 17
         ),
 
+        // Source: CCSBot::ReloadCheck
+        // const float reloadAmmoRatio = 0.6f;
         // ReloadCheck: lower the ammo ratio threshold from 0.6f to 0.2f.
         ["ReloadCheck_LowerAmmoThreshold"] = (
             signature: "66 0F 6E C0 0F 5B C0 F3 0F 5E F0 F3 0F 10 05 ? ? ? ? 0F 2F C6 0F 82",
